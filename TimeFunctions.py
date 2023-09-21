@@ -9,8 +9,6 @@ def time_function(func, args, n_trials=10):
     return end_seconds - start_seconds
 
 
-            #
-
 
 def time_function_flexible(f, args, n_trials=10):
     '''Returns a function/method through the argument and returns the output using trials as an integer'''
